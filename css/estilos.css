@@ -20,12 +20,20 @@ body{
 #header #tagline
 {
     padding: 0 0 0 1em;
+    box-shadow: 0px 5px 30px 0px rgb(56, 182, 39);
     font-weight: normal;
     font-size: 0.8em;
     
 
 }
 
+#header #tagline    
+{
+    padding: 1em 0 0 0;
+    font-weight: normal;
+    font-size: 0.8cm;
+
+}
 
 #container
 {
@@ -38,4 +46,8 @@ body{
 #container h1
 {
     font-size: 20px;
+}
+#post
+{
+  padding: 1em;  
 }
